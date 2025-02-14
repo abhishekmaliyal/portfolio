@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function TechStack() {
   return (
-    <div>
+    <div className='flex flex-col'>
       This is tech stack
       <div>
             <div>ReactJS</div>

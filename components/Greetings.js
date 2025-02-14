@@ -40,7 +40,7 @@ const Greetings = () => {
 
     return (
         <div>
-            <h6 className="text-6xl text-green-600">{greeting}</h6>
+            <h6 className="text-8xl text-[#4F1787]">{greeting}</h6>
         </div>
     );
 };
