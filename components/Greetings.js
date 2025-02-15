@@ -39,10 +39,11 @@ const Greetings = () => {
     },[]);
 
     return (
-        <div>
-            <h6 className="text-8xl text-[#4F1787]">{greeting}</h6>
+        <div className="absolute z-10">
+            <h6 className="hello text-transparent leading-normal bg-gradient-to-bl from-[#5e5e5f] via-[#383737] to-[#00000050] bg-clip-text ">{greeting}</h6>
         </div>
     );
 };
+
 
 export default Greetings;

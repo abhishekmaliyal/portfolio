@@ -11,7 +11,7 @@
 !.yarn/versions
 
 ignore.txt
-
+_favicon.ico
 
 # testing
 /coverage

@@ -1,21 +1,32 @@
+'use client'
+
 import Greetings from "@/components/Greetings";
 import TechStack from "@/components/TechStack";
+import { MorphingText } from "@/components/magicui/morphing-text";
+
+const texts = ["ReactJS", "NextJS", "HTML", "CSS", "JavaScript", "TailwindCSS", "RestAPI"];
 
 export default function Home() {
+    
     return (
         <>
-            <div className="relative pointer-events-none">
-                <div className=" w-full h-auto text-3xl bg-transparent text-black py-20 px-10 justify-center items-center">
-                    <div className="hello w-[800px]">
-                        <Greetings />
-                    </div>
-                    <div className="intro w-[800px]">
-                        <h3 className="font-bold text-3xl ">
-                            I Am Abhishek Maliyal, A Front-End Web Developer
-                        </h3>
+            <div className="relative backdrop-blur-2xl h-screen overflow-y-scroll  snap-y snap-mandatory" >
+                <div className=" w-screen h-auto flex items-center justify-center snap-start">
+                    <Greetings />
+                    <div className="">
+                        <div className="flex flex-col h-auto items-center justify-around font-extrabold text-[8rem] tracking-[0.3em]">
+                            <p className="name">A B H I </p>
+                            <p className="name"> S H E K</p>
+                            <p className="name"> M A L I</p>
+                            <p className="name">Y A L</p>
+                        </div>
                     </div>
                 </div>
-                <div className="w-full h-auto text-3xl text-black py-20 px-10 justify-center items-center">
+                <div className="w-full flex flex-row items-center justify-center">
+                    <p className="iam">&lt; I am a creative front-end developer &gt;</p>
+                </div>
+                <div className="snap-start w-auto h-screen text-3xl text-white py-20 px-10 justify-center items-center">
+                    <MorphingText texts={texts} className="text-black text-[10rem]" />
                     <TechStack />
                 </div>
             </div>

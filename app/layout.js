@@ -1,5 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
-import Squares from "@/components/Grid";
+import Background from "@/components/Background";
 
 import "./globals.css";
 
@@ -22,15 +22,9 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <body
-                className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#D4F6FF]`}
+                className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden `}
             >
-                <Squares
-                    speed={0.2}
-                    squareSize={50}
-                    direction="up"
-                    borderColor="#7776B3"
-                    hoverFillColor="#7776B3"
-                />
+                <Background />
                 {children}
             </body>
         </html>
