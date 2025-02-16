@@ -40,7 +40,7 @@ const Greetings = () => {
 
     return (
         <div className="absolute z-10">
-            <h6 className="hello text-transparent leading-normal bg-gradient-to-bl from-[#5e5e5f] via-[#383737] to-[#00000050] bg-clip-text ">{greeting}</h6>
+            <h6 className="hello text-transparent leading-normal bg-gradient-to-bl from-[#ddd6dfbb] via-[#a88ab6] to-[#dfa1a17a] bg-clip-text ">{greeting}</h6>
         </div>
     );
 };

@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
-import Background from "@/components/Background";
+import Iridescence from "@/components/Background";
+
 
 import "./globals.css";
 
@@ -21,11 +22,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <body
-                className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden `}
-            >
-                <Background />
+            <body className={`${geistSans.variable} ${geistMono.variable} antialiased relative`}>
+                {/* <Background /> */}
+                <Iridescence color={[0.2, 0.2, 0.2]} mouseReact={false} amplitude={0.1} speed={1.0} />
                 {children}
+                
             </body>
         </html>
     );
