@@ -1,14 +1,3 @@
-
-// export default function Background() {
-//     return (
-//         <>
-        
-//         {/* <div className="-z-10 absolute w-screen h-screen bg-center min-h-screen bg-[url(back.jpg)]  bg-contain bg-repeat">
-
-//         </div> */}
-//         </>
-//     );
-// }
 'use client'
 
 import { Renderer, Program, Mesh, Color, Triangle } from "ogl";
@@ -149,7 +138,7 @@ export default function Iridescence({
   return (
     <div
       ref={ctnDom}
-      className="-z-10 absolute  w-full h-full"
+      className="-z-10 absolute w-full h-full"
       {...rest}
     />
   );
