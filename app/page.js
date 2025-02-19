@@ -2,10 +2,7 @@
 
 import Greetings from "@/components/Greetings";
 import TechStack from "@/components/TechStack";
-import { MorphingText } from "@/components/magicui/morphing-text";
 import CircularText from "@/components/Connect";
-
-const texts = ["ReactJS", "NextJS", "HTML", "CSS", "JavaScript", "TailwindCSS", "RestAPI"];
 
 export default function Home() {
     return (
@@ -22,8 +19,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="snap-start w-auto h-screen text-3xl text-white py-20 px-10 justify-center items-center">
-                    <MorphingText texts={texts} className="text-black text-[10rem]" />
+                <div className="snap-start w-auto h-screen justify-center items-center">
                     <TechStack />
                 </div>
             </div>

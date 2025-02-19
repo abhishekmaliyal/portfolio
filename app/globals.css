@@ -1,8 +1,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Satisfy&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'custom';
+    src: url('/fonts/sgtaki.otf') format('opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+.about{
+    font-family: 'custom';
+    font-size: 10rem;
+
+}
+
+@font-face {
+    font-family: 'shakeCustom';
+    src: url('/fonts/SuperShake.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.custom-text{
+    font-family: 'shakeCustom';
+    font-size: 5rem;
+    -webkit-text-stroke: 2px rgba(0, 0, 0, 0.911);
+    color: transparent;
+}
 
 .name {
     -webkit-text-stroke: 2px #ffffff;

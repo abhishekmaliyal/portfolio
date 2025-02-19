@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
         <html lang="en">
             <body className={`${geistSans.variable} ${geistMono.variable} antialiased relative`}>
                 {/* <Background /> */}
-                <Iridescence color={[0.2, 0.2, 0.2]} mouseReact={false} amplitude={0.1} speed={1.0} />
+                <Iridescence color={[0.8, 0.8, 0.8]} mouseReact={false} amplitude={0.1} speed={1.0} />
                 {children}
                 
             </body>
