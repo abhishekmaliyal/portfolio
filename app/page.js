@@ -1,34 +1,43 @@
-"use client";
-
-import Greetings from "@/components/Greetings";
-import TechStack from "@/components/TechStack";
-import CircularText from "@/components/Connect";
-
 export default function Home() {
-    return (
-        <>
-            <div className="relative backdrop-blur-2xl overflow-x-hidden h-screen overflow-y-scroll snap-y snap-mandatory">
-                <div className=" w-screen h-screen flex items-center justify-center snap-start">
-                    <Greetings />
-                    <div className="">
-                        <div className="flex flex-col h-auto items-center justify-around font-extrabold text-[8rem] tracking-[0.3em]">
-                            <p className="name">A B H I </p>
-                            <p className="name"> S H E K</p>
-                            <p className="name"> M A L I</p>
-                            <p className="name">Y A L</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="snap-start w-auto h-screen justify-center items-center">
-                    <TechStack />
-                </div>
-            </div>
-            <CircularText
-                text="CONNECT*WITH*ME*"
-                onHover="goBonkers"
-                spinDuration={50}
-                className="custom-class fixed z-0 bottom-5 right-5 "
-            />
-        </>
-    );
+  return (
+    <>
+      <div className="contain w-screen h-screen p-10 overflow-x-hidden">
+        <div className="topbar flex items-center justify-between">
+          <div className="title font-bold text-4xl w-[10%] flex justify-center">am.</div>
+          <div className="available">available</div>
+        </div>
+        <div className="mainbody flex w-full h-[95%]">
+          <div className="left h-full w-[10%]">
+            <nav className="h-full">
+              <ul className="h-full flex flex-col gap-20 justify-end p-10 items-center">
+                <li>
+                  <a href="#">
+                    <div className="transform -rotate-90 ">first</div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" >
+                    <div className="transform -rotate-90 ">second</div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" >
+                    <div className="transform -rotate-90 ">third</div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" >
+                    <div className="transform -rotate-90 ">fourth</div>
+                  </a>
+                </li>
+                
+              </ul>
+            </nav>
+          </div>
+          <div className="center text-5xl font-bold w-[80%] flex items-center justify-center">front-end-web(developer)__</div>
+          <div className="right w-[10%]">right</div>
+        </div>
+      </div>
+    </>
+  );
 }
