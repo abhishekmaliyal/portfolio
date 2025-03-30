@@ -20,8 +20,21 @@ a{
   cursor:crosshair;
 }
 
+.contain {
+  width: 100vw;
+  height: 100vh;
+  padding: 2.5rem;
+  overflow-x: hidden;
+}
+
+.mainbody {
+  display: flex;
+  width: 100%;
+  height: 95%;
+}
+
 /* div {
-  border: 1px solid black;
+  border: 1px solid white;
 } */
 
 
