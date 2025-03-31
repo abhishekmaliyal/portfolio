@@ -1,8 +1,9 @@
 import Center from "@/components/Center";
-import { ModeToggle } from "@/components/darkmode";
+import { ModeToggle } from "@/components/theme/darkmode";
 import Left from "@/components/Left";
 import Topbar from "@/components/Topbar";
 import React from "react";
+import ProjectTitle from "@/components/ProjectTitle";
 
 export default function page() {
   return (
@@ -12,7 +13,7 @@ export default function page() {
         <div className="mainbody">
           <Left />
           <Center>
-            <p className="flex h-full items-center w-full justify-center">this is contact page</p>
+            <ProjectTitle>contact.</ProjectTitle>
           </Center>
           <ModeToggle />
         </div>
