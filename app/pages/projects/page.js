@@ -4,6 +4,7 @@ import Left from "@/components/Left";
 import Topbar from "@/components/Topbar";
 import React from "react";
 import ProjectTitle from "@/components/ProjectTitle";
+import ProjectCard from "@/components/ProjectCard";
 
 export default function page() {
   return (
@@ -15,11 +16,11 @@ export default function page() {
           <Center>
             <ProjectTitle>project.</ProjectTitle>
             <div className="w-[90%] flex">
-              <div className="projects w-full grid grid-cols-2">
-                <div className="project">project 1</div>
-                <div className="project">project 2</div>
-                <div className="project">project 3</div>
-                <div className="project">project 4</div>
+              <div className="projects w-full h-full grid grid-cols-2">
+                <ProjectCard name="test" tech="html"><p>this is sample</p></ProjectCard>
+                <ProjectCard name="test" tech="html"><p>this is sample</p></ProjectCard>
+                <ProjectCard name="test" tech="html"><p>this is sample</p></ProjectCard>
+                <ProjectCard name="test" tech="html"><p>this is sample</p></ProjectCard>
               </div>
             </div>
           </Center>

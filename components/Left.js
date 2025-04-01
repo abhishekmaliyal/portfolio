@@ -8,7 +8,7 @@ export default function Left() {
         <nav className="h-full">
           <ul className="h-full flex flex-col gap-20 justify-end p-10 items-center">
           <li>
-              <Link href="#">
+              <Link href="/#about">
                 <div className="transform -rotate-90 hover:text-primary/80">about.</div>
               </Link>
             </li>
