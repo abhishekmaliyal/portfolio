@@ -16,18 +16,18 @@ export default function AboutPage() {
           </Link>
           <Center>
             <div className="introduction w-full h-full">
-              <div className="my-name h-[45%] ">
+              <div className="my-name h-[45%] flex flex-col justify-center">
                 <h1 className="center pl-24 pt-8 text-6xl">hi,</h1>
-                <p className="center pt-8 pl-20 text-9xl">
+                <p className="center pt-8 pl-20 text-8xl">
                   i&apos;m{" "}
                   <span className="center underline underline-offset-[15px]">abhishek maliyal</span>
                 </p>
               </div>
-              <div className="whoami h-[35%] text-7xl">
+              <div className="whoami h-[35%] text-6xl">
                 <h1 className="pl-20">a front-end web developer</h1>
                 <h1 className="pt-8 pl-20">i develop websites using -&gt;</h1>
               </div>
-              <div className="techstack h-[20%] grid grid-cols-7 px-20">
+              <div className="techstack h-[20%] grid lg:grid-cols-7 grid-cols-3 px-20">
                 <TechCard>HTML</TechCard>
                 <TechCard>CSS</TechCard>
                 <TechCard>JavaScript</TechCard>

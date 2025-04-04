@@ -15,10 +15,19 @@ export default function page() {
           <Left />
           <Center>
             <ProjectTitle>contact.</ProjectTitle>
-            <div className="contactlinks w-full h-full flex items-center justify-center gap-10">
-              <ContactCard link="mailto:abhishekmaliyal123@gmail.com">mail.</ContactCard>
-              <ContactCard link="https://www.linkedin.com/in/abhishek-maliyal-a3113b217/">linkedin.</ContactCard>
-              <ContactCard link="https://github.com/abhishekmaliyal">github</ContactCard>
+            <div className="content w-full h-full flex flex-col">
+              <div className="connect w-full flex items-end justify-center h-[45%] pb-5">
+                <p className="text-xl font-bold">connect with me.</p>
+              </div>
+              <div className="contactlinks w-full flex items-center justify-center">
+              <div className="grid grid-cols-1 lg:grid-cols-3 gap-2">
+                <ContactCard link="mailto:abhishekmaliyal123@gmail.com">mail.</ContactCard>
+                <ContactCard link="https://www.linkedin.com/in/abhishek-maliyal-a3113b217/">
+                  linkedin.
+                </ContactCard>
+                <ContactCard link="https://github.com/abhishekmaliyal">github</ContactCard>
+              </div>
+              </div>
             </div>
           </Center>
           <ModeToggle />

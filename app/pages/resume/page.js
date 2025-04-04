@@ -22,7 +22,7 @@ export default function page() {
                 making a website that is both functional and beautiful. i&apos;m always striving to
                 improve my skills and stay up-to-date with the latest web technologies.
               </div>
-              <div className="resume grid grid-cols-2 h-[85%] px-20 pt-2 gap-2">
+              <div className="resume grid grid-cols-2 h-[85%] px-20 pt-10 gap-2">
                 <InfoCard title="education.">
                   <div className="college">
                     <p className="font-bold text-xl pl-2">b.tech cse</p>
@@ -100,7 +100,7 @@ export default function page() {
                     <span className="font-bold text-xl pl-2">databases : </span>MongoDB, mySQL
                   </p>
                   <p>
-                    <span className="font-bold text-xl pl-2">tools : </span>shadcn, git
+                    <span className="font-bold text-xl pl-2">tools : </span>shadcn, netlify, git
                   </p>
                   <p>
                     <span className="font-bold text-xl pl-2">OS : </span>windows, linux, macOS, wsl
