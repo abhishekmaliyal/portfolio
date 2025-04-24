@@ -25,7 +25,7 @@ export default function AboutPage() {
               </div>
               <div className="whoami h-[35%] text-6xl">
                 <h1 className="pl-20">a front-end web developer</h1>
-                <h1 className="pt-8 pl-20">i develop websites using -&gt;</h1>
+                <h1 className="pt-8 pl-20">my techstack -&gt;</h1>
               </div>
               <div className="techstack h-[20%] grid lg:grid-cols-7 grid-cols-3 px-20">
                 <TechCard>HTML</TechCard>

@@ -1,6 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
-import { ThemeProvider } from "@/components/theme/theme-provider"
-
+import { ThemeProvider } from "@/components/theme/theme-provider";
 
 import "./globals.css";
 
@@ -22,15 +21,17 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased relative overflow-x-hidden`}>
-      <ThemeProvider
-            attribute="class"
-            defaultTheme="light"
-            enableSystem
-            disableTransitionOnChange = {true}
-          >
-            {children}
-          </ThemeProvider>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased relative overflow-x-hidden`}
+      >
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="light"
+          enableSystem
+          disableTransitionOnChange={true}
+        >
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );

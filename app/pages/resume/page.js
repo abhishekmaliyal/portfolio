@@ -79,7 +79,7 @@ export default function page() {
                   </p>
                   <p className="pl-8">
                     {" "}
-                    -- Developed further understanding in team dynamics needed in industry.{" "}
+                    -- Developed further understanding of team dynamics needed in industry.{" "}
                   </p>
                 </InfoCard>
                 <InfoCard title="soft skills.">
