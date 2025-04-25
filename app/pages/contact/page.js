@@ -21,11 +21,11 @@ export default function page() {
               </div>
               <div className="contactlinks w-full flex items-center justify-center">
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-2">
-                <ContactCard link="mailto:abhishekmaliyal123@gmail.com">mail.</ContactCard>
-                <ContactCard link="https://www.linkedin.com/in/abhishek-maliyal-a3113b217/">
+                <ContactCard link="mailto:abhishekmaliyal123@gmail.com" className="lg:hover:shadow-red-400">mail.</ContactCard>
+                <ContactCard link="https://www.linkedin.com/in/abhishek-maliyal-a3113b217/" className="lg:hover:shadow-blue-400">
                   linkedin.
                 </ContactCard>
-                <ContactCard link="https://github.com/abhishekmaliyal">github</ContactCard>
+                <ContactCard link="https://github.com/abhishekmaliyal" className="lg:hover:shadow-gray-400">github</ContactCard>
               </div>
               </div>
             </div>
