@@ -7,7 +7,7 @@ export default function TechCard(props) {
       <div className="w-full h-full flex items-start justify-center">
         <div
           className={cn(
-            "cards w-40 h-20 flex items-center justify-center border border-black dark:border dark:border-white hover:w-44 hover:h-24",
+            "cards w-40 h-20 flex items-center justify-center border border-black dark:border dark:border-white lg:hover:shadow-xl",
             props.className
           )}
         >

@@ -28,13 +28,13 @@ export default function AboutPage() {
                 <h1 className="pt-8 pl-20">my techstack -&gt;</h1>
               </div>
               <div className="techstack h-[20%] grid lg:grid-cols-7 grid-cols-3 px-20">
-                <TechCard>HTML</TechCard>
-                <TechCard>CSS</TechCard>
-                <TechCard>JavaScript</TechCard>
-                <TechCard>ReactJS</TechCard>
-                <TechCard>NextJS</TechCard>
-                <TechCard>TailwindCSS</TechCard>
-                <TechCard>RestAPI</TechCard>
+                <TechCard className="lg:hover:shadow-orange-300">HTML</TechCard>
+                <TechCard className="lg:hover:shadow-blue-300">CSS</TechCard>
+                <TechCard className="lg:hover:shadow-yellow-200">JavaScript</TechCard>
+                <TechCard className="lg:hover:shadow-cyan-300">ReactJS</TechCard>
+                <TechCard className="lg:hover:shadow-gray-500">NextJS</TechCard>
+                <TechCard className="lg:hover:shadow-sky-300">TailwindCSS</TechCard>
+                <TechCard className="lg:hover:shadow-stone-500">RestAPI</TechCard>
               </div>
             </div>
           </Center>
