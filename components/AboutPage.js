@@ -37,37 +37,37 @@ export default function AboutPage() {
                 </HoverCard>
                 <HoverCard>
                   <HoverCardTrigger className=" cursor-crosshair">
-                    <TechCard className="lg:hover:shadow-orange-300">CSS</TechCard>
+                    <TechCard className="lg:hover:shadow-blue-300">CSS</TechCard>
                   </HoverCardTrigger>
                   <HoverCardContent className=" w-full flex text-3xl">6/10</HoverCardContent>
                 </HoverCard>
                 <HoverCard>
                   <HoverCardTrigger className=" cursor-crosshair">
-                    <TechCard className="lg:hover:shadow-orange-300">JavaScript</TechCard>
+                    <TechCard className="lg:hover:shadow-yellow-300">JavaScript</TechCard>
                   </HoverCardTrigger>
                   <HoverCardContent className=" w-full flex text-3xl">6/10</HoverCardContent>
                 </HoverCard>
                 <HoverCard>
                   <HoverCardTrigger className=" cursor-crosshair">
-                    <TechCard className="lg:hover:shadow-orange-300">ReactJS</TechCard>
+                    <TechCard className="lg:hover:shadow-cyan-300">ReactJS</TechCard>
                   </HoverCardTrigger>
                   <HoverCardContent className=" w-full flex text-3xl">6/10</HoverCardContent>
                 </HoverCard>
                 <HoverCard>
                   <HoverCardTrigger className=" cursor-crosshair">
-                    <TechCard className="lg:hover:shadow-orange-300">NextJS</TechCard>
+                    <TechCard className="lg:hover:shadow-gray-300">NextJS</TechCard>
                   </HoverCardTrigger>
                   <HoverCardContent className=" w-full flex text-3xl">7/10</HoverCardContent>
                 </HoverCard>
                 <HoverCard>
                   <HoverCardTrigger className=" cursor-crosshair">
-                    <TechCard className="lg:hover:shadow-orange-300">TailwindCSS</TechCard>
+                    <TechCard className="lg:hover:shadow-sky-300">TailwindCSS</TechCard>
                   </HoverCardTrigger>
                   <HoverCardContent className=" w-full flex text-3xl">6/10</HoverCardContent>
                 </HoverCard>
                 <HoverCard>
                   <HoverCardTrigger className=" cursor-crosshair">
-                    <TechCard className="lg:hover:shadow-orange-300">RestAPI</TechCard>
+                    <TechCard className="lg:hover:shadow-stone-300">RestAPI</TechCard>
                   </HoverCardTrigger>
                   <HoverCardContent className=" w-full flex text-3xl">5/10</HoverCardContent>
                 </HoverCard>
