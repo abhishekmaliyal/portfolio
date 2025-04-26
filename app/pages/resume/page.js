@@ -19,7 +19,7 @@ export default function page() {
               <div className="aboutdetail h-[15%] px-20 pt-2 text-2xl">
                 hi, i&apos;m abhishek maliyal, i&apos;m passionate about creating things for the
                 web. i love the combination of technical skill and creative design that goes into
-                making a website that is both functional and beautiful. i&apos;m always striving to
+                making a website both functional and beautiful. i&apos;m always striving to
                 improve my skills and stay up-to-date with the latest web technologies.
               </div>
               <div className="resume grid grid-cols-2 h-[85%] px-20 pt-10 gap-2">
