@@ -19,35 +19,35 @@ export default function page() {
               <div className="projects w-full h-full grid lg:grid-cols-2">
                 <ProjectCard
                   name="wayther"
-                  tech="NextJS 15, React 19, TailwindCSS v4"
+                  tech="- NextJS(v15), ReactJS(v19), TailwindCSS(v4), OpenWeatherMapAPI"
                   src="/projects/wayther-preview.png"
                   host="https://wayther-app.netlify.app"
                 >
-                  <p>simple at-a-glance weather application.</p>
+                  <p>- simple at-a-glance weather application.</p>
                 </ProjectCard>
                 <ProjectCard
                   name="naice"
-                  tech="NextJS 15, React 19, TailwindCSS v4"
+                  tech="- NextJS(v15), ReactJS(v19), TailwindCSS(v4), Shadcn"
                   src="/projects/naice-preview.png"
                   host="https://naice.netlify.app"
                 >
-                  <p>a minimalistic countdown timer till november 10, 2190.</p>
+                  <p>- a minimalistic countdown timer till november 10, 2190.</p>
                 </ProjectCard>
                 <ProjectCard
                   name="pokedeckinfo"
-                  tech="NextJS 15, React 19, TailwindCSS v4"
+                  tech="- NextJS(v15), ReactJS(v19), TailwindCSS(v4), PokéAPI"
                   src="/projects/pokedeck-preview.png"
                   host="https://pokedeckinfo.netlify.app"
                 >
-                  <p>search and get to know your pokemon.</p>
+                  <p>- search and get to know your pokemon.</p>
                 </ProjectCard>
                 <ProjectCard
                   name="summ"
-                  tech="NextJS 15, React 19, TailwindCSS v4"
+                  tech="- ReactJS(v18), TailwindCSS(v3), RapidAPI"
                   src="/projects/summ-preview.png"
                   host="https://summ-summarizer.netlify.app"
                 >
-                  <p>an article summarizer that uses url of the article to summarize.</p>
+                  <p>-  an article summarizer that uses url of the article to summarize.</p>
                 </ProjectCard>
               </div>
             </div>
